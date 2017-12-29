@@ -4,8 +4,8 @@ const google = require('googleapis');
 const Session = require('express-session');
 const plus = google.plus('v1');
 const OAuth2 = google.auth.OAuth2;
-const ClientId = "1056192407389-q19742pcesiahc48orm74e7k7fdtr5i9.apps.googleusercontent.com";
-const ClientSecret = "oQbMtLSUULin1M0LyQGVWmej";
+const ClientId = "Client ID";
+const ClientSecret = "Client Secrect";
 const RedirectionUrl = "http://localhost:3000/googleapi";
 
 function getOAuthClient () {
